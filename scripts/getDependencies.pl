@@ -216,6 +216,30 @@ my %base = (
 		url => 'https://repo1.maven.org/maven2/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.jar',
 		fname => 'junit-platform-suite-api.jar',
 		sha1 => '174bba1574c37352b0eb2c06e02b6403738ad57c'
+	},
+	junit_platform_commons => {
+		url => 'https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar',
+		fname => 'junit-platform-commons.jar',
+		sha1 => '2bfcd4a4e38b10c671b6916d7e543c20afe25579',
+
+	},
+	junit_platform_engine => {
+		url => 'https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.10.1/junit-platform-engine-1.10.1.jar',
+		fname => 'junit-platform-engine.jar',
+		sha1 => 'f32ae4af74fde68414b8a3d2b7cf1fb43824a83a',
+
+	},
+	junit_platform_launcher => {
+		url => 'https://repo1.maven.org/maven2/org/junit/platform/junit-platform-launcher/1.10.1/junit-platform-launcher-1.10.1.jar',
+		fname => 'junit-platform-launcher.jar',
+		sha1 => 'ce85bf5e38bee0989ded9bd468dd4ff78dc0cfa8',
+
+	},
+	opentest4j => {
+		url => 'https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar',
+		fname => 'opentest4j.jar',
+		sha1 => '28c11eb91f9b6d8e200631d46e20a7f407f2a046',
+
 	});
 
 my @dependencies = split(',', $dependencyList);
